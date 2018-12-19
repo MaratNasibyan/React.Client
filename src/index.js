@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './pages/login/login.js';
+import Login from './pages/login/login.component.js';
 
 import * as serviceWorker from './serviceWorker';
 
