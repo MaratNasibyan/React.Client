@@ -4,7 +4,7 @@ import "./login.component.css";
 
 class LoginForms extends React.Component{    
         render() {                    
-            return (
+            return (              
                 <form onSubmit={this.props.handleSubmit}>
                 <FormGroup controlId="email" bsSize="large">
                   <ControlLabel>Email</ControlLabel>
@@ -15,7 +15,7 @@ class LoginForms extends React.Component{
                   <FormControl value={this.props.password} type="password" onChange={this.props.handleChange}/>               
                 </FormGroup>
                 <Button block bsSize="large" type="submit">Login</Button>  
-              </form>
+              </form>            
         );
     }
 } 
